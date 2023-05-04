@@ -122,3 +122,260 @@ body {
 .header-img img {
     width: 400px;
 }
+
+.general-container {
+    padding: 100px 0;
+    display: flex;
+}
+
+.general-1 {
+    width: 70%;
+    display: flex;
+}
+
+.general-card {
+    padding: 40px;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 25px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.general-card img {
+    width: 30px;
+    margin-bottom: 25px;
+}
+
+.general-card h3 {
+    font-size: 18px;
+    color: #12114d;
+    margin-bottom: 15px;
+}
+
+.general-card p {
+    font-size: 16px;
+    color: #656875;
+}
+
+.general-2 {
+    width: 30%;
+    margin: 0 35px;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 50px;
+    color: #12114d;
+    margin-bottom: 20px;
+}
+
+.general-2 p {
+    font-size: 16px;
+    color: #656875;
+    margin-bottom: 35px;
+}
+
+.btn-2 {
+    display: inline-block;
+    padding: 13px 25px;
+    color: #12114d;
+    font-size: 17px;
+    border-radius: 15px;
+    text-transform: capitalize;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-2:hover {
+    background-color: #e95f6f;
+    color: #ffffffff;
+}
+
+.bg-1 {
+    width: 33%;
+    height: 400px;
+    background-image: url(images/bg1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-2 {
+    width: 33%;
+    height: 400px;
+    background-image: url(images/bg2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-3 {
+    width: 33%;
+    height: 400px;
+    background-image: url(images/bg3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.information {
+    padding: 100px 0;
+    background-color: #f5f9fc;
+    text-align: center;
+}
+
+.information-content {
+    margin-top: 70px;
+    display: flex;
+}
+
+.information-1 {
+    margin: 0 25px;
+}
+
+.information-1 h3 {
+    text-transform: capitalize;
+    font-size: 25px;
+    color: #12114d;
+    margin-bottom: 15px;
+}
+
+.information-1 p {
+    font-size: 16px;
+    color: #656875;
+    margin-bottom: 35px;
+}
+
+.footer {
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-txt {
+    padding-right: 500px;
+}
+
+.footer-txt p {
+    font-size: 16px;
+    color: #656875;
+    margin-top: 25px;
+}
+
+.footer-socials {
+    display: flex;
+}
+
+.footer-socials img {
+    margin: 0 15px;
+    width: 30px;
+    height: 30px;
+}
+
+@media(max-width:991px) {
+    .menu {
+        padding: 30px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: abosule;
+        top:100%;
+        right: 0;
+        left: 0;
+        background-color: #f0efef;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~.navbar {
+        display: initial;
+    }
+
+    .header {
+        height: 0vh;
+        min-height: 1000px;
+        background-color: #f5f9fc;
+    }
+
+    .header-content {
+        flex-direction: column;
+        padding: 50px 30px 20px 30px;
+        margin: 0;
+    }
+
+    .header-txt {
+        width: 100%;
+        margin-right: 0;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .header-img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-img img {
+        width: 100%;
+    }
+
+    .general {
+        padding: 30px;
+        flex-direction: column;
+    }
+
+    .general-1 {
+        width: 100%;
+        flex-direction: column;
+        order: 2;
+    }
+
+    .general-2 {
+        width: 100%;
+        margin: 0 0 40px 0;
+        text-align: center;
+    }
+
+    .general-card {
+        margin: 0 0 25px 0;
+    }
+
+    .bg-1 , .bg-2 , .bg-3 {
+        width: 100%;
+    }
+
+    .information {
+        padding: 30px;
+    }
+
+    .information-content {
+        margin-top: 30px;
+        flex-direction: column;
+    }
+
+    .information-1 {
+        text-align: center;
+        margin: 0 0 45px 0;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-txt {
+        padding-right: 0;
+    }
+
+    .footer-socials {
+        margin-top: 50px;
+    }
+}
